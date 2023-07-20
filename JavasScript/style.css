@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    background-color: antiquewhite;
+    
+}
+input{
+    outline: none;
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 225px;
+    padding-left: 12px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.imagebg{
+    width: 210px;
+    height: 210px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:5px 5px 10px rgb(132, 124, 124);
+}
+
+.btn{
+    width: 300px;
+    
+}
+
+#generate{
+    margin-left: 10px;
+    width: 100px;
+    padding: 10px;
+    margin-right: 25px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border-radius: 10px;
+}
+
+#download{
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
