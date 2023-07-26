@@ -1,58 +1,69 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 300px;
+    height: 300px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main>.card{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 127, 127);
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    margin-top: 200px;
-    background-color: antiquewhite;
-    
+    justify-content: center;
+    border-radius: 10px;
 }
+#main>.card>.imagebg{
+    background-color: #ddd;
+    width: 230px;
+    height: 230px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 20px 1px #000;
+
+}
+#main>.card>.imagebg>img{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+
 input{
-    outline: none;
-    display: flex;
-    margin-left: 5px;
-    margin-bottom: 10px;
-    width: 225px;
-    padding-left: 12px;
-    height: 30px;
+    width: 235px;
+    height: 40px;
+    padding: 0 10px;
+    border: 2px solid black;
+    outline:none;
     border-radius: 10px;
-    border: solid black 1px;
-}
-
-img{
-    width: 200px;
-    height: 200px;
-    
-}
-
-.imagebg{
-    width: 210px;
-    height: 210px;
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow:5px 5px 10px rgb(132, 124, 124);
+    margin: 20px 0;
 }
 
 .btn{
-    width: 300px;
-    
+    margin-top: 10px;
+    padding: 0 32px;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#generate{
-    margin-left: 10px;
-    width: 100px;
-    padding: 10px;
-    margin-right: 25px;
-    background-color: rgb(255, 255, 255);
+.btn>button{
+    padding:5px 25px;
     outline: none;
-    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ddd;
 }
 
-#download{
-    width: 100px;
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-}
